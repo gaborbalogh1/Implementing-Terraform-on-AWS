@@ -4,9 +4,8 @@
 
 variable "region" {
   type    = string
-  default = "us-east-1"
+  default = "eu-west-2"
 }
-
 
 variable "vpc_cidr_range" {
   type    = string
@@ -61,7 +60,7 @@ module "vpc" {
 
   tags = {
     Environment = "dev"
-    Team        = "infra"
+    Team        = "Devops"
   }
 
 }
