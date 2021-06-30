@@ -60,7 +60,7 @@ module "vpc" {
 
   tags = {
     Environment = "dev"
-    Team        = "Devops"
+    Team        = "DevOps"
   }
 
 }
